@@ -12,7 +12,9 @@
             <li>
                 <strong>{{ $train->Azienda }}</strong> - {{ $train->Stazione_di_partenza }} → {{ $train->Stazione_di_arrivo }}
                 <br>
-                Partenza: {{ $train->Orario_di_partenza }} - {{ $train->Data_partenza }} - Arrivo: {{ $train->Orario_di_arrivo }}
+                Data di Partenza: {{ $train->Data_di_partenza }} 
+                <br>
+                Partenza: {{ $train->Orario_di_partenza }} - Arrivo: {{ $train->Orario_di_arrivo }}
                 <br>
                 Treno: {{ $train->Codice_Treno }} - Carrozze: {{ $train->Numero_Carrozze }}
                 <br>
