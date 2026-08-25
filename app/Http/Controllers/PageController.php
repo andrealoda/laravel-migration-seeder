@@ -11,8 +11,7 @@ class PageController extends Controller
 
     {
 
-    $trains = Train::where('Data_di_partenza', '>=', now())
-    ->orderBy('Data_di_partenza', 'asc')
+    $trains = Train::orderBy('Data_di_partenza', 'asc')
     ->orderBy('Orario_di_partenza', 'asc')
     ->get();
 
