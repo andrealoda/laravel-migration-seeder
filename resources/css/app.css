@@ -97,7 +97,7 @@ body {
 }
 
 /* Desktop adjustments */
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
 
     .header-row,
     .data-row {
@@ -112,7 +112,7 @@ body {
     .data-cell {
         font-size: 1rem;
     }
-}
+} */
 
 /* Colors */
 .stato-in-orario {
