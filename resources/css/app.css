@@ -96,23 +96,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Desktop adjustments */
-/* @media (min-width: 769px) {
-
-    .header-row,
-    .data-row {
-        padding: 14px 16px;
-    }
-
-    .header-cell {
-        font-size: 0.85rem;
-        letter-spacing: 2px;
-    }
-
-    .data-cell {
-        font-size: 1rem;
-    }
-} */
 
 /* Colors */
 .stato-in-orario {

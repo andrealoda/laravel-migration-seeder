@@ -13,10 +13,8 @@
 
 <body>
     <div class="tabellone">
-        <div class="tabellone-header">
-            <h1>Tabellone Treni</h1>
-            <div class="subtitle">Partenze</div>
-        </div>
+
+        @include('partials.header')
 
         <div class="table-container">
             @if($trains->isEmpty())
@@ -69,12 +67,12 @@
                 </div>
             </div>
             @endforeach
+
             @endif
         </div>
 
-        <div class="tabellone-footer">
-            ULTIMO AGGIORNAMENTO: {{ now()->format('d/m/Y H:i:s') }}
-        </div>
+        @include('partials.footer')
+
     </div>
 </body>
 
