@@ -23,7 +23,7 @@
             <div class="header-row">
                 <div class="header-cell">Data</div>
                 <div class="header-cell">Treno</div>
-                <div class="header-cell">Classe</div>
+                <div class="header-cell">1° Classe</div>
                 <div class="header-cell">Azienda</div>
                 <div class="header-cell">Percorso</div>
                 <div class="header-cell">Partenza</div>
@@ -41,7 +41,7 @@
                     {{ $train->Codice_Treno }}
                 </div>
                 <div class="data-cell">
-                    {{ $train->Prima_Classe ? '1° OK' : '1° NO' }}
+                    {{ $train->Prima_Classe ? 'In testa' : 'In coda' }}
                 </div>
                 <div class="data-cell azienda">
                     {{ $train->Azienda }}
