@@ -12,8 +12,9 @@
 </head>
 
 <body>
-    <div class="tabellone">
 
+    <div class="tabellone">
+        
         @include('partials.header')
 
         <div class="table-container">
